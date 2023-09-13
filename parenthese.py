@@ -23,7 +23,7 @@ def main():
     n = int(input("Entrez la valeur de n : "))
     valid_combinations = generate_parentheses_combinations_score(n // 2)
 
-    print("Combinaisons valides :")
+    print(f"Combinaisons valides de {n}: solutions = {len(valid_combinations)}")
     for combination in valid_combinations:
         print(combination)
 
